@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import styles from './AboutMe.module.css';
 import {motion, useInView, useAnimation} from 'framer-motion';
+import img from '../../assets/dev.png';
 
 function AboutMe({txt}) {
 
@@ -23,7 +24,7 @@ function AboutMe({txt}) {
     <div className={styles.container}>
         <motion.img
             ref={imgRef}
-            src='../../../src/assets/dev.png'
+            src={img}
             alt="dev"
             variants={{
                 hidden: { opacity: 0, y: -150 },

@@ -4,6 +4,9 @@ import {AppContext} from './context/context';
 import langJson from './lang.json';
 import { motion, useInView, useAnimation } from 'framer-motion';
 import emailjs from '@emailjs/browser';
+import EuaImg from './assets/eua.png';
+import BrImg from './assets/brasil.png';
+
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -96,7 +99,7 @@ function App() {
       <ToastContainer/>
       <section className={styles.initialSection}>
         <div className={styles.lang}>
-          <img onClick={handleLang} src={lang == 'pt' ? "../src/assets/eua.png" : "../src/assets/brasil.png"} alt="br" />
+          <img onClick={handleLang} src={lang == 'pt' ? EuaImg : BrImg} alt="change lang" />
         </div>
         <div ref={titleRef} style={{position: 'relative'}}>
           <motion.h1
