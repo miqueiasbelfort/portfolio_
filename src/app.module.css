@@ -1,0 +1,118 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.initialSection {
+    width: 100%;
+    height: 100%;
+    background: url('./assets/bg.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.title{
+    max-width: 100%;
+    text-align: center;
+    font-size: 4em;
+}
+.lang img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.actions{
+    width: 100%;
+    height: 100vh;
+}
+.buttons{
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+    margin-top: 15px;
+}
+.form input, .form textarea {
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--secondary);
+    background-color: #0000;
+    color: var(--primary);
+    border-radius: 7px;
+}
+.form textarea {
+    resize: none;
+    height: 150px;
+}
+.form button {
+    padding: 10px 20px;
+    color: #000;
+    background-color: var(--secondary-dark);
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+@media screen and (max-width: 768px){
+    .title {
+        font-size: 3em;
+        width: 100%;
+    }
+    .buttons{
+        justify-content: center;
+    }
+    .form {
+        width: 95%;
+    }
+    .contact{
+        padding: 50px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .initialSection{
+        text-align: center;
+    }
+    .title {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .title {
+        font-size: 4em;
+    }
+    .initialSection span:last-child {
+        font-size: 2em;
+    }
+}

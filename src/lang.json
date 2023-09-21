@@ -1,0 +1,126 @@
+{
+    "pt": {
+        "title": "Olá 👋, Eu sou",
+        "name": "Miqueias Belfort",
+        "endTitle": "Sou Desenvolvedor de Software",
+        "subtitle": "\"Falar é fácil, me mostre o código\" - Linus Torvalds",
+        "btn1": "Sobre",
+        "btn2": "Habilidades",
+        "btn3": "Projetos",
+        "btn4": "Experiências",
+        "aboutme": "Olá, meu nome é Miqueias, mora em Brasília-DF, estudo Engenharia de Software, e desenvolvo a mais ou menos 2 anos, principalmente com Javascript, Node, React etc... Hoje faço trabalhos como freelancer, além de estar estagiando na área de desenvolvimento, sempre mantendo o foco e determino a mudar o mundo.",
+        "skills": {
+            "title": "Habilidades",
+            "default": "Olá, aqui você pode ver todas as minhas habilidades e o que elas podem fazer...",
+            "html": "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.",
+            "css": "CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site.",
+            "js": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.",
+            "ts": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.",
+            "react": "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.",
+            "node": "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.",
+            "csharp": "C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java.",
+            "firebase": "O Firebase Realtime Database é um banco de dados NoSQL hospedado na nuvem. Com ele, você armazena e sincroniza dados entre os seus usuários em tempo real. O Cloud Firestore permite armazenar, sincronizar e consultar dados de apps em escala global.",
+            "sql": "A Linguagem de consulta estruturada (SQL) é uma linguagem padrão para criação e manipulação de bancos de dados.",
+            "git": "O GitHub é uma plataforma de desenvolvimento colaborativo que aloja projetos na nuvem utilizando o sistema de controle de versões chamado Git. A plataforma ajuda os desenvolvedores a armazenar e administrar o código e faz o registro de mudanças.",
+            "java": "Java é uma linguagem de programação e plataforma de computação liberada pela primeira vez pela Sun Microsystems em 1995. De um início humilde, ela evoluiu para uma grande participação no mundo digital dos dias atuais, oferecendo a plataforma confiável na qual muitos serviços e aplicativos são desenvolvidos."
+        },
+        "projects": {
+            "title": "Projetos",
+            "repo": "Repositórios no GitHub",
+            "pro1": {
+                "title": "SuperChat",
+                "desc": "Um chat online em tempo real usando a tecnologia webSocket com Node e React.",
+                "links": {
+                    "github": "https://github.com/miqueiasbelfort/superchat-client",
+                    "site": "https://superchat-react-ts.netlify.app/"
+                }
+            },
+            "pro2": {
+                "title": "Netflix Clone",
+                "desc": "Um clone da Netflix feito com React, usando API do TMDB (The Move Database).",
+                "links": {
+                    "github": "https://github.com/miqueiasbelfort/ui-Netflix-Clone",
+                    "site": "https://gilded-cendol-41dfe7.netlify.app/"
+                }
+            },
+            "pro3": {
+                "title": "API com GO",
+                "desc": "Uma API usando a linguagem de Programação GO, que pode adicionar, ler, editar e deletar dados de um Banco SQL.",
+                "links": {
+                    "github": "https://github.com/miqueiasbelfort/DevBook"
+                }
+            }
+        },
+        "contact": {
+            "title": "Entre em contato",
+            "name": "Nome Completo",
+            "email": "Seu Email",
+            "message": "Menssagem",
+            "btn": "Enviar"
+        },
+        "message": "Recebi sua mensagem, dentro de algumas horas entro em contato!",
+        "warning": "Preencha todos os campos!"
+    },
+    "en": {
+        "title": "Hi 👋, I'm",
+        "name": "Miqueias Belfort",
+        "endTitle": "I am Software Developer",
+        "subtitle": "\"Talk is cheap, show me the code\" - Linus Torvalds",
+        "btn1": "About Me",
+        "btn2": "Skills",
+        "btn3": "Projects",
+        "btn4": "Experience",
+        "aboutme": "Hello, my name is Miqueias, I live in Brasília-DF, I study Software Engineering, and I have been developing for more or less 2 years, mainly with Javascript, Node, React, etc... Today I work as a freelancer, in addition to interning in the development area, always staying focused and determined to change the world.",
+        "skills": {
+            "title": "Skills",
+            "default": "Hello, here you can see all my skills and what they can do...",
+            "html": "HTML is a markup language used to build web pages. HTML documents can be interpreted by browsers.",
+            "css": "CSS is called Cascading Style Sheet language and is used to style elements written in a markup language like HTML. CSS separates the content from the visual representation of the website.",
+            "js": "JavaScript is a structured, high-level scripting, weakly dynamically typed, multi-paradigm interpreted programming language.",
+            "ts": "TypeScript is an open source programming language developed by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.",
+            "react": "React is an open-source JavaScript front-end library focused on creating user interfaces on web pages.",
+            "node": "Node.js is open source, cross-platform software, based on Google's V8 interpreter and which allows JavaScript code to be executed outside of a web browser.",
+            "csharp": "C# is a strongly typed, multi-paradigm programming language developed by Microsoft as part of the .NET platform. Its object-oriented syntax was based on C++ but includes many influences from other programming languages, such as Object Pascal and, mainly, Java.",
+            "firebase": "Firebase Realtime Database is a cloud-hosted NoSQL database. With it, you store and synchronize data between your users in real time. Cloud Firestore lets you store, sync, and query app data on a global scale.",
+            "sql": "Structured Query Language (SQL) is a standard language for creating and manipulating databases.",
+            "git": "GitHub is a collaborative development platform that hosts projects in the cloud using the version control system called Git. The platform helps developers store and manage code and records changes.",
+            "java": "Java is a programming language and computing platform first released by Sun Microsystems in 1995. From humble beginnings, it has evolved into a major player in today's digital world, providing the reliable platform on which many services and applications are developed."
+        },
+        "projects": {
+            "title": "Projects",
+            "repo": "Repositories on GitHub",
+            "pro1": {
+                "title": "SuperChat",
+                "desc": "A real-time online chat using webSocket technology with Node and React.",
+                "links": {
+                    "github": "https://github.com/miqueiasbelfort/superchat-client",
+                    "site": "https://superchat-react-ts.netlify.app/"
+                }
+            },
+            "pro2": {
+                "title": "Netflix Clone",
+                "desc": "A Netflix clone made with React, using TMDB (The Movie Database) API.",
+                "links": {
+                    "github": "https://github.com/miqueiasbelfort/ui-Netflix-Clone",
+                    "site": "https://gilded-cendol-41dfe7.netlify.app/"
+                }
+            },
+            "pro3": {
+                "title": "API com GO",
+                "desc": "An API using the GO Programming language, which can add, read, edit and delete data from a SQL Database.",
+                "links": {
+                    "github": "https://github.com/miqueiasbelfort/DevBook"
+                }
+            }
+        },
+        "contact": {
+            "title": "Contact me",
+            "name": "Full Name",
+            "email": "Your Email",
+            "message": "Message",
+            "btn": "Send"
+        },
+        "message": "I received your message, I will contact you in a few hours!",
+        "warning": "Fill in all the fields!"
+    }
+}

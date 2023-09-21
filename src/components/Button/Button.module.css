@@ -1,0 +1,33 @@
+.button{
+    padding: 10px 20px;
+    border: 1px solid #8d8d8d;
+    background-color: transparent;
+    color: #8d8d8d;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s;
+    font-size: 1.2em;
+}
+.button:hover{
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+.select{
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+}
+
+@media screen and (max-width: 490px){
+    .button {
+        font-size: .8em;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .button {
+        font-size: 1,5em;
+    }
+}
