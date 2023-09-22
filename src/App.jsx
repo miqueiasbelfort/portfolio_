@@ -168,6 +168,7 @@ function App() {
             initial="hidden"
             animate="visible"
             transition={{duration: .5}}
+            className={styles.contactTitle}
           >
             {language.contact.title}
           </motion.h2>

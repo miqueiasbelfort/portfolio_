@@ -115,4 +115,16 @@
     .initialSection span:last-child {
         font-size: 2em;
     }
+    .form {
+        width: 800px;
+    }
+    .form input, .form textarea {
+        padding: 15px;
+    }
+    .form button {
+        font-size: 1em;
+    }
+    .contactTitle {
+        font-size: 1.2em;
+    }
 }
